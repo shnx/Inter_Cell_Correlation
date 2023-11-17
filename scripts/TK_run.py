@@ -2,7 +2,7 @@ import tkinter as tk
 from tkinter import Canvas, Button, Checkbutton
 
 def button1_click():
-    print("Button 1 Clicked")
+    print("Button 1 ")
 
 def button2_click():
     print("Button 2 Clicked")
