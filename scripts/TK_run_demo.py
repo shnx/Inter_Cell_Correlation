@@ -1,8 +1,8 @@
 import tkinter as tk
 from tkinter import Canvas, Button, Checkbutton
 
-def button1_click():
-    print("Button 1 ")
+def next_step():
+    print("Next Step")
 
 def button2_click():
     print("Button 2 Clicked")
@@ -37,8 +37,8 @@ figure2 = Canvas(root, width=200, height=200, bg="lightgreen")
 figure2.grid(row=0, column=1, padx=10, pady=10)
 
 # Create buttons under the first figure
-button1 = Button(root, text="Button 1", command=button1_click)
-button1.grid(row=1, column=0, pady=5)
+next_step = Button(root, text="Next Step", command=next_step)
+next_step.grid(row=1, column=0, pady=5)
 
 button2 = Button(root, text="Button 2", command=button2_click)
 button2.grid(row=2, column=0, pady=5)
